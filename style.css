@@ -124,3 +124,131 @@ body:hover{
     background-color: #fff;
     color: #a35dd1;
 }
+
+/* Second section */
+
+.about_header{
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+    margin-top: 50px;
+    color:#45235c;
+    text-align: center;
+}
+
+.about_header:after {
+    content: "";
+    display: block;
+    width: 500px;
+    height: 3px;
+    background-color: #45235c;
+    margin: 10px auto 50px;
+}
+
+.about_main{
+    display: flex;
+}
+
+.about_img{
+    width: 400px;
+
+}
+
+.about_texte{
+    margin-left: 50px;
+    margin-top: 50px;
+    color: #45235c;
+    font-size: 18px;
+    text-align: left;
+}
+
+/* 3 section */
+
+.vid_01{
+    display: flex;
+}
+
+.vid_02{
+    display: flex;
+}
+
+.vid_img{
+    width: 600px;
+}
+
+.right{
+    margin-right: 50px;
+}
+
+.left{
+    margin-left: 50px;
+}
+
+.vid_texte{
+    margin-top: 50px;
+    color: #45235c;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: left;
+}
+
+.span{
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+/* 4 section */
+
+.list{
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.list_items{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.list_img{
+    width: 200px;
+    margin-bottom: 20px;
+    align-self: center;
+}
+
+.list_h{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 700;
+    text-decoration: underline;
+    margin-bottom: 20px;
+    color:#45235c;
+}
+
+.list_descr{
+    text-align: center;
+    text-align: left;
+    color: #45235c;
+}
+
+li{
+    list-style: square;
+}
+
+/* 5 section */
+
+.uhod{
+    display: flex;
+}
+
+.uhod_texte{
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+#myVideo{
+    width: 100%;
+    margin-top: 50px;
+}
