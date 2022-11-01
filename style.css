@@ -12,3 +12,63 @@ body{
 body:hover{
     background-color: #f0e1fa;
 }
+
+
+/* Container */
+
+.container{
+    width: 100%;
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Hamburger */
+
+.hamburger-menu{
+    display: none;
+}
+
+
+/* Intro */
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh; 
+
+    background: url(images/01-03.jpg) center no-repeat;
+    background-size: cover;
+
+}
+
+.intro_title{
+    font-family: 'Lobster', cursive;
+    font-size: 200px;
+    opacity: 0;
+    /* text-transform: uppercase; */
+}
+
+.intro_title:after {
+    content: "";
+    display: block;
+    width: 500px;
+    height: 3px;
+
+    background-color: #fff;
+    margin: 60px auto;
+
+}
+
+.intro_inner{
+    width: 100%;
+    max-width: 880px;
+    margin: 0 auto;
+
+    text-align: center;    
+
+    color: #fff;
+    text-align: center;
+}
