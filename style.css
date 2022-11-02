@@ -39,7 +39,6 @@ body:hover{
     height: 100vh; 
     background: url(assets/01.jpg) center no-repeat;
     background-size: cover;
-
 }
 
 .intro_title{
@@ -55,7 +54,6 @@ body:hover{
     height: 3px;
     background-color: #fff;
     margin: 60px auto;
-
 }
 
 .intro_inner{
@@ -250,6 +248,146 @@ li{
     width: 100%;
     margin-top: 50px;
 }
+
+/* Adaptation */
+
+@media all and (max-width: 1200px) {
+
+    .container{
+        width: 100%;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 0 15px;
+        }
+    
+    /* Intro */
+    
+    .intro_title{
+        font-size: 100px;
+        margin-top: 70px;
+    }
+    
+    .intro_title:after {
+        width: 350px;
+    }
+    
+    .intro_inner{
+        max-width: 800px;
+    }
+    
+    /* Navigation */
+    
+    .nav{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .nav_link{
+        padding: 0 7px;
+        font-size: 24px;
+    }
+    
+    /* Second section */
+    
+    .about_header{
+        margin-top: 30px;
+    }
+    
+    
+    .about_main{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .about_img{
+        width: 300px;
+        align-self: center;
+        margin-bottom: 30px;
+    }
+    
+    .about_texte{
+        margin-top: 30px;
+        font-size: 16px;
+        margin: 0;
+    }
+    
+    /* 3 section */
+    
+    .vid_01{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .vid_02{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .vid_img{
+        width: 500px;
+        align-self: center;
+        margin: 15px 0;
+    }
+    
+    .right{
+        margin-right: 0px;
+    }
+    
+    .left{
+        margin-left: 0px;
+    }
+    
+    .vid_texte{
+        margin: 20px 0;
+        font-size: 16px;
+        text-align: left;
+    }
+    
+    /* 4 section */
+    
+    .list{
+        display: flex;
+        flex-direction: column;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    
+    .list_items{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .list_img{
+        width: 200px;
+    }
+    
+    .list_h{
+        font-size: 30px;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+    
+    .list_descr{
+        text-align: left;
+        color: #45235c;
+    }
+    
+    li{
+        list-style: square;
+        margin-left: 10px;
+    }
+    
+    .uhod{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #myVideo{
+        width: 100%;
+        margin-top: 50px;
+    }
+    }
+    
 
 @media all and (max-width: 700px) {
 
