@@ -252,3 +252,180 @@ li{
     width: 100%;
     margin-top: 50px;
 }
+
+@media all and (max-width: 700px) {
+
+    .container{
+        width: 100%;
+        max-width: 700px;
+        }
+    
+    /* Intro */
+    
+    .intro_title:after {
+        width: 350px;
+        margin-top: 10px;
+    }
+    }
+    
+@media all and (max-width: 500px) {
+
+    .container{
+        max-width: 500px;
+        }
+    
+        /* Intro */
+    
+    .intro_title{
+        font-size:80px;
+    }
+    
+    .intro_title:after {
+        width: 300px;
+    }
+    
+    .intro_inner{
+        max-width: 500px;
+    }
+    
+    /* Navigation */
+    
+    .nav{
+        display: none;
+    }
+    
+/* Hamburger */
+
+.hamburger-menu{
+    display: inline;
+}
+
+/* hide the checkbox */
+#menu__toggle {
+opacity: 0;
+}
+/* style the button*/
+.menu__btn {
+display: flex; 
+align-items: center;  
+position: absolute;
+top: 40px;
+left: 40px;
+width: 26px;
+height: 26px;
+cursor: pointer;
+z-index: 1;
+}
+/* hamburger menu */
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+display: block;
+position: absolute;
+width: 100%;
+height: 2px;
+background-color: #fff;
+}
+.menu__btn > span::before {
+content: '';
+top: -8px;
+}
+.menu__btn > span::after {
+content: '';
+top: 8px;
+}
+
+/* container menu */
+.menu__box {
+display: block;
+position: fixed;
+visibility: hidden;
+top: 0;
+left: -100%;
+width: 300px;
+height: 100%;
+margin: 0;
+padding: 80px 0px;
+list-style: none;
+text-align: left;
+background-color: #c2a2d8;
+box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+}
+
+/* menu items */
+.menu__item {
+display: block;
+padding: 12px 40px;
+color: #fff;
+font-family: 'Roboto Condensed', sans-serif;
+font-size: 26px;
+font-weight: 400;
+text-decoration: none;
+}
+.menu__item:hover {
+color:#45235c;
+text-transform: uppercase;
+}
+
+#menu__toggle:checked ~ .menu__btn > span {
+transform: rotate(45deg);
+}
+#menu__toggle:checked ~ .menu__btn > span::before {
+top: 0;
+transform: rotate(0);
+}
+#menu__toggle:checked ~ .menu__btn > span::after {
+top: 0;
+transform: rotate(90deg);
+}
+#menu__toggle:checked ~ .menu__box {
+visibility: visible;
+left: 0;
+}
+
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+transition-duration: .25s;
+}
+.menu__box {
+transition-duration: .25s;
+}
+.menu__item {
+transition-duration: .25s;
+}
+
+
+    /* Second section */    
+        
+    .about_header:after {
+        width: 350px;
+        height: 3px;
+    }
+
+    .about_img{
+        width: 300px;
+        align-self: center;
+        margin-bottom: 30px;
+    }
+    
+    /* 3 section */
+    
+    .vid_img{
+        width: 400px;
+    }
+            
+    /* 4 section */
+
+    
+
+    .list_img{
+        width: 150px;
+        margin-bottom: 15px;
+}
+    
+    #myVideo{
+        width: 100%;
+        margin-top: 30px;
+    }
+    }
