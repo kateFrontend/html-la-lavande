@@ -5,7 +5,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-<p>Simple informative landing about lavande in french.</p>
+<p>Simple informative landing page about lavande in french.</p>
 <p>Built with pure HTML5, CSS3 and Gsap animation.</p>
 
   <p>
