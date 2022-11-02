@@ -5,7 +5,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-<p>Simple informative site about lavande.</p>
+<p>Simple informative landing about lavande in french.</p>
 <p>Built with pure HTML5, CSS3 and Gsap animation.</p>
 
   <p>
@@ -19,10 +19,10 @@
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-<p></p>
-<p></p>
-<p></p>
-<p></p>
+<p>Built with pure Html5 and CSS3.</p>
+<p>Burger menu with pure Html, Css.</p>
+<p>Simple Gsap animations</p>
+<p>Mobile responsive.</p>
 <p></p>
 
 Project Link: https://github.com/kateFrontend//La-lavande
