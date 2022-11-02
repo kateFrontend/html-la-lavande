@@ -1,6 +1,6 @@
 <div>
   <h1>La lavande</h1> 
-  <img src="G" alt="image" width="auto">
+  <img src="03.jpg" alt="image" width="auto">
 </div>
 
 <!-- ABOUT THE PROJECT -->
